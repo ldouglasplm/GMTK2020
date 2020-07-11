@@ -22,7 +22,14 @@ public class BoulderCollision : MonoBehaviour
         {
             Rigidbody myRigidbody = this.GetComponent<Rigidbody>();
             myRigidbody.isKinematic = false;
-            gameObject.tag = "Boulder";
+            Debug.Log(myRigidbody.velocity);
         }
     }
+
+    void FixedUpdate()
+    {
+        // Makes this object move forward at X speed.
+    }
+
+
 }

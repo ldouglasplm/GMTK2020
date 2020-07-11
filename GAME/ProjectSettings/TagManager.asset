@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Boulder
   - HouseComponent
+  - Boulder1
   layers:
   - Default
   - TransparentFX
