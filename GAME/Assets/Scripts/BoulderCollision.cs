@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BoulderCollision : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,13 +23,19 @@ public class BoulderCollision : MonoBehaviour
         {
             Rigidbody myRigidbody = this.GetComponent<Rigidbody>();
             myRigidbody.isKinematic = false;
-            Debug.Log(myRigidbody.velocity);
-        }
-    }
+            
+            if (gameObject.tag.Equals("1 Point") == true)
+            {
+                ScoreManager.score = ScoreManager.score + 1;
+            }
 
-    void FixedUpdate()
-    {
-        // Makes this object move forward at X speed.
+            if (gameObject.tag.Equals("2 Point") == true)
+            {
+                ScoreManager.score = ScoreManager.score + 2;
+            }
+
+        }
+
     }
 
 

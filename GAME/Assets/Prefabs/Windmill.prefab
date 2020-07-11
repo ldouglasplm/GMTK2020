@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7334519875483407055}
   m_Layer: 0
   m_Name: wallWoodCornerDiagonal (1)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 7334519875549115062}
   m_Layer: 0
   m_Name: wallWood (1)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 7334519875567303318}
   m_Layer: 0
   m_Name: wallWoodCornerDiagonal (7)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -388,7 +388,7 @@ GameObject:
   - component: {fileID: 7334519875751780032}
   m_Layer: 0
   m_Name: wallWoodDetailCross
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -512,7 +512,7 @@ GameObject:
   - component: {fileID: 7334519875759317842}
   m_Layer: 0
   m_Name: stairsWood
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -635,7 +635,7 @@ GameObject:
   - component: {fileID: 7334519875835370450}
   m_Layer: 0
   m_Name: wallCornerDiagonal (7)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -759,7 +759,7 @@ GameObject:
   - component: {fileID: 7334519875875831863}
   m_Layer: 0
   m_Name: wallWoodCornerDiagonal
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -883,7 +883,7 @@ GameObject:
   - component: {fileID: 7334519875983111181}
   m_Layer: 0
   m_Name: wallDoorwayRound
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1008,7 +1008,7 @@ GameObject:
   - component: {fileID: 7334519876196968108}
   m_Layer: 0
   m_Name: wallCornerDiagonal (4)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1132,7 +1132,7 @@ GameObject:
   - component: {fileID: 7334519876219967268}
   m_Layer: 0
   m_Name: wallCornerDiagonal
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1256,7 +1256,7 @@ GameObject:
   - component: {fileID: 7334519876282322355}
   m_Layer: 0
   m_Name: wallWoodCornerDiagonal (6)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1380,7 +1380,7 @@ GameObject:
   - component: {fileID: 7334519876291603477}
   m_Layer: 0
   m_Name: roofHighWindow (1)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1506,7 +1506,7 @@ GameObject:
   - component: {fileID: 7334519876366275354}
   m_Layer: 0
   m_Name: wallCornerDiagonal (6)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1630,7 +1630,7 @@ GameObject:
   - component: {fileID: 7334519876393532546}
   m_Layer: 0
   m_Name: wallCornerDiagonal (5)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1754,7 +1754,7 @@ GameObject:
   - component: {fileID: 7334519876505020246}
   m_Layer: 0
   m_Name: wall (2)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1878,7 +1878,7 @@ GameObject:
   - component: {fileID: 7334519876514939853}
   m_Layer: 0
   m_Name: wallCornerDiagonal (2)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2002,7 +2002,7 @@ GameObject:
   - component: {fileID: 7334519876593185310}
   m_Layer: 0
   m_Name: roofHighWindow
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2128,7 +2128,7 @@ GameObject:
   - component: {fileID: 7334519876624261085}
   m_Layer: 0
   m_Name: wallWoodCornerDiagonal (2)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2252,7 +2252,7 @@ GameObject:
   - component: {fileID: 7334519876778768609}
   m_Layer: 0
   m_Name: wallWoodCornerDiagonal (5)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2376,7 +2376,7 @@ GameObject:
   - component: {fileID: 7334519876807074168}
   m_Layer: 0
   m_Name: wallDetailCross (1)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2500,7 +2500,7 @@ GameObject:
   - component: {fileID: 7334519876955620982}
   m_Layer: 0
   m_Name: wallCornerDiagonal (1)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2624,7 +2624,7 @@ GameObject:
   - component: {fileID: 7334519877036516457}
   m_Layer: 0
   m_Name: wallWoodCornerDiagonal (4)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2748,7 +2748,7 @@ GameObject:
   - component: {fileID: 7334519877082113203}
   m_Layer: 0
   m_Name: wallWindowSmall (1)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2872,7 +2872,7 @@ GameObject:
   - component: {fileID: 7334519877087977246}
   m_Layer: 0
   m_Name: roofHighGable
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2998,7 +2998,7 @@ GameObject:
   - component: {fileID: 7334519877172134214}
   m_Layer: 0
   m_Name: roofHighCornerRound
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3123,7 +3123,7 @@ GameObject:
   - component: {fileID: 7334519877279166662}
   m_Layer: 0
   m_Name: planks
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3246,7 +3246,7 @@ GameObject:
   - component: {fileID: 7334519877279364539}
   m_Layer: 0
   m_Name: wallDetailCross
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3370,7 +3370,7 @@ GameObject:
   - component: {fileID: 7334519877296899371}
   m_Layer: 0
   m_Name: roofHighCornerRound (2)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3495,7 +3495,7 @@ GameObject:
   - component: {fileID: 7334519877326055820}
   m_Layer: 0
   m_Name: wall
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3619,7 +3619,7 @@ GameObject:
   - component: {fileID: 7334519877330513069}
   m_Layer: 0
   m_Name: wallWoodCornerDiagonal (3)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3743,7 +3743,7 @@ GameObject:
   - component: {fileID: 7334519877340205756}
   m_Layer: 0
   m_Name: wallWood
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3867,7 +3867,7 @@ GameObject:
   - component: {fileID: 7334519877360991165}
   m_Layer: 0
   m_Name: wallCornerDiagonal (3)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3991,7 +3991,7 @@ GameObject:
   - component: {fileID: 7334519877389391741}
   m_Layer: 0
   m_Name: wallWindowSmall
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4115,7 +4115,7 @@ GameObject:
   - component: {fileID: 7334519877418564303}
   m_Layer: 0
   m_Name: poles
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4238,7 +4238,7 @@ GameObject:
   - component: {fileID: 7334519877423936315}
   m_Layer: 0
   m_Name: wall (1)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4362,7 +4362,7 @@ GameObject:
   - component: {fileID: 7334519877463065349}
   m_Layer: 0
   m_Name: wallWoodDetailCross (1)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4487,7 +4487,7 @@ GameObject:
   - component: {fileID: 7568329024127196897}
   m_Layer: 0
   m_Name: windmill
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4623,7 +4623,7 @@ GameObject:
   - component: {fileID: 7334519877535127929}
   m_Layer: 0
   m_Name: roofHighCornerRound (3)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4748,7 +4748,7 @@ GameObject:
   - component: {fileID: 7334519877625134660}
   m_Layer: 0
   m_Name: roofHighCornerRound (1)
-  m_TagString: Untagged
+  m_TagString: 2 Point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4867,7 +4867,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7568329025648176660}
   m_Layer: 0
-  m_Name: Windmill 1 (1)
+  m_Name: Windmill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

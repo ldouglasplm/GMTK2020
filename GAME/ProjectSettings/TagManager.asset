@@ -5,8 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Boulder
-  - HouseComponent
-  - Boulder1
+  - 1 Point
+  - 2 Point
+  - 3 Point
   layers:
   - Default
   - TransparentFX
