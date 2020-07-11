@@ -1,17 +1,19 @@
-using System.Security.Cryptography;
 using UnityEngine;
+using System.Collections;
 
 public class CameraFollow : MonoBehaviour
 {
-  public Transform target;
-  public float smoothSpeed = 0.0f;
-  public Vector3 offset;
+    public GameObject player;
+    private Vector3 offset;
+    // Use this for initialization
+    void Start()
+    {
+        offset = transform.position;
+    }
 
-  void FixedUpdate ()
-  {
-    Vector3 desiredPosition = target.position + offset;
-    Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
-    transform.position = smoothedPosition;
-     
-  }
+    // Update is called once per frame
+    void LateUpdate()
+    {
+        transform.position = player.transform.position + offset;
+    }
 }
