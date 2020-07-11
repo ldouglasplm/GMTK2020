@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
 
 public class StartingPosition : MonoBehaviour
@@ -13,19 +14,33 @@ public class StartingPosition : MonoBehaviour
     [Header("Angle covered per update")]
     public float angle; //or the speed of rotation.
 
+    public bool gameStart;
+
+    void Start()
+    {
+         
+    }
+
     // Update is called once per frame
     void Update()
     {
         //Gets the position of your 'Turret' and rotates this gameObject around it by the 'axis' provided at speed 'angle' in degrees per update 
-        if (Input.GetKey("a"))
+        if (Input.GetKey("a") && gameStart == false)
         {
             transform.RotateAround(Turret.transform.position, axis, angle*-1);
         }
 
         //Gets the position of your 'Turret' and rotates this gameObject around it by the 'axis' provided at speed 'angle' in degrees per update 
-        if (Input.GetKey("d"))
+        if (Input.GetKey("d") && gameStart == false)
         {
             transform.RotateAround(Turret.transform.position, axis, angle);
+        }
+
+        if (Input.GetKey("space") && gameStart == false)
+        {
+            Rigidbody boulderRigidbody = this.GetComponent<Rigidbody>();
+            boulderRigidbody.isKinematic = false;
+            gameStart = true;
         }
     }
 }
