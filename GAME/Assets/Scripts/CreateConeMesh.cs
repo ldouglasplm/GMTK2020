@@ -9,7 +9,7 @@ using System.Collections;
 // note you will get inevitable breaks in the smooth shading at cone tips
 // note the resulting mesh will be created as an asset in Assets/Editor
 // Author: Wolfram Kresse
-public class CreateCone : MonoBehaviour
+public class CreateConeMesh : MonoBehaviour
 {
 
 	public int numVertices = 10;
