@@ -16,6 +16,6 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UnityEngine.Debug.Log(score);
+        //UnityEngine.Debug.Log(score);
     }
 }

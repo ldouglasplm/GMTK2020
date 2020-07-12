@@ -14,11 +14,12 @@ public class StartingPosition : MonoBehaviour
     [Header("Angle covered per update")]
     public float angle; //or the speed of rotation.
 
-    public bool gameStart;
+    public static bool gameStart;
+    public static float gameStartTime;
 
     void Start()
     {
-         
+        Turret = GameObject.Find("StartingPosition");
     }
 
     // Update is called once per frame
@@ -41,6 +42,7 @@ public class StartingPosition : MonoBehaviour
             Rigidbody boulderRigidbody = this.GetComponent<Rigidbody>();
             boulderRigidbody.isKinematic = false;
             gameStart = true;
+            gameStartTime = Time.time;
         }
     }
 }
