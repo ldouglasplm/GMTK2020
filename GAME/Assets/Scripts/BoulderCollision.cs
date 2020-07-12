@@ -5,17 +5,7 @@ using UnityEngine;
 public class BoulderCollision : MonoBehaviour
 {
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    public float MoveSpeed = 3.0f;
 
     void OnCollisionEnter(Collision collision)
     {
@@ -39,11 +29,17 @@ public class BoulderCollision : MonoBehaviour
                 ScoreManager.score = ScoreManager.score + 3;
             }
 
-            gameObject.tag = "collided";
+            if (gameObject.tag.Equals("50 Point") == true && gameObject.tag != ("collided"))
+            {
+                ScoreManager.score = ScoreManager.score + 50;
+            }
+
+            myRigidbody.tag = "collided";
 
         }
 
-    }
 
+
+    }
 
 }
