@@ -20,12 +20,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //UnityEngine.Debug.Log(Time.time - StartingPosition.gameStartTime); 
-        // IF BOULDER OBJECT HAS LOW VELOCITY THEN GET RID OF IT AND SPAWN A NEW ONE
-        if (BoulderManager.boulderSpeed < 1f && Time.time - StartingPosition.gameStartTime > 3) // NEED TO CHANGE TO BE 3 SOLID SECONDS OF BEING BELOW VELOCITY THRESHOLD
+        if ((StartingPosition.gameStart == true && BoulderManager.boulderTooSlowTime > 3) || Input.GetKey("f"))
         {
             currentBoulder = GameObject.FindWithTag("Boulder");
-            Destroy(currentBoulder);
+
+            StartingPosition.gameStart = false;
         }
     }
 }
