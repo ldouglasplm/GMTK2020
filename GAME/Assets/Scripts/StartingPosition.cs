@@ -15,7 +15,7 @@ public class StartingPosition : MonoBehaviour
     public float angle; //or the speed of rotation.
 
     public static bool gameStart;
-    public static float gameStartTime;
+    public static float gameStartTime = 100000;
 
     void Start()
     {
