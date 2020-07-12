@@ -25,24 +25,27 @@ public class StartingPosition : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Gets the position of your 'Turret' and rotates this gameObject around it by the 'axis' provided at speed 'angle' in degrees per update 
-        if (Input.GetKey("a") && gameStart == false)
-        {
-            transform.RotateAround(Turret.transform.position, axis, angle*-1);
-        }
 
-        //Gets the position of your 'Turret' and rotates this gameObject around it by the 'axis' provided at speed 'angle' in degrees per update 
-        if (Input.GetKey("d") && gameStart == false)
-        {
-            transform.RotateAround(Turret.transform.position, axis, angle);
-        }
+        if (gameObject.tag == ("Boulder")) {
+            //Gets the position of your 'Turret' and rotates this gameObject around it by the 'axis' provided at speed 'angle' in degrees per update 
+            if (Input.GetKey("a") && gameStart == false)
+            {
+                transform.RotateAround(Turret.transform.position, axis, angle * -1);
+            }
 
-        if (Input.GetKey("space") && gameStart == false)
-        {
-            Rigidbody boulderRigidbody = this.GetComponent<Rigidbody>();
-            boulderRigidbody.isKinematic = false;
-            gameStart = true;
-            gameStartTime = Time.time;
+            //Gets the position of your 'Turret' and rotates this gameObject around it by the 'axis' provided at speed 'angle' in degrees per update 
+            if (Input.GetKey("d") && gameStart == false)
+            {
+                transform.RotateAround(Turret.transform.position, axis, angle);
+            }
+
+            if (Input.GetKey("space") && gameStart == false)
+            {
+                Rigidbody boulderRigidbody = this.GetComponent<Rigidbody>();
+                boulderRigidbody.isKinematic = false;
+                gameStart = true;
+                gameStartTime = Time.time;
+            }
         }
     }
 }

@@ -9,6 +9,7 @@ TagManager:
   - 2 Point
   - 3 Point
   - collided
+  - FinishedBoulder
   layers:
   - Default
   - TransparentFX

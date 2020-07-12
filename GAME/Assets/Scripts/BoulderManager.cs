@@ -36,6 +36,6 @@ public class BoulderManager : MonoBehaviour
             boulderTooSlowTime = 0f;
         }
 
-        UnityEngine.Debug.Log(boulderTooSlowTime);
+        //UnityEngine.Debug.Log(boulderTooSlowTime);
     }
 }
