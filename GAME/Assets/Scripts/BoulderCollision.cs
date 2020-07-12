@@ -34,6 +34,11 @@ public class BoulderCollision : MonoBehaviour
                 ScoreManager.score = ScoreManager.score + 2;
             }
 
+            if (gameObject.tag.Equals("3 Point") == true)
+            {
+                ScoreManager.score = ScoreManager.score + 3;
+            }
+
         }
 
     }
