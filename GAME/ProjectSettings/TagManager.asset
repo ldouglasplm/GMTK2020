@@ -10,6 +10,7 @@ TagManager:
   - 3 Point
   - collided
   - FinishedBoulder
+  - 50 Point
   layers:
   - Default
   - TransparentFX
