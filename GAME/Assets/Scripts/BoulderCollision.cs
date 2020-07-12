@@ -23,21 +23,23 @@ public class BoulderCollision : MonoBehaviour
         {
             Rigidbody myRigidbody = this.GetComponent<Rigidbody>();
             myRigidbody.isKinematic = false;
-            
-            if (gameObject.tag.Equals("1 Point") == true)
+
+            if (gameObject.tag.Equals("1 Point") == true && gameObject.tag != ("collided"))
             {
                 ScoreManager.score = ScoreManager.score + 1;
             }
-
-            if (gameObject.tag.Equals("2 Point") == true)
+            
+            if (gameObject.tag.Equals("2 Point") == true && gameObject.tag != ("collided"))
             {
                 ScoreManager.score = ScoreManager.score + 2;
             }
 
-            if (gameObject.tag.Equals("3 Point") == true)
+            if (gameObject.tag.Equals("3 Point") == true && gameObject.tag != ("collided"))
             {
                 ScoreManager.score = ScoreManager.score + 3;
             }
+
+            gameObject.tag = "collided";
 
         }
 
